@@ -1,0 +1,76 @@
+@keyframes to_top{
+	from{
+		top: 65%;
+		//border-radius: 0rem;
+	}
+	to{
+		top: 0px;
+		//border-radius: 100%;
+	}
+}
+
+@keyframes to_down{
+	from{
+		top: 0px;
+		//border-radius: 0rem;
+	}
+	to{
+		top: 65%;
+		//border-radius: 100%;
+	}
+}
+
+@keyframes to_left{
+	from{
+		left: 65%;
+		//border-radius: 100%;
+	}
+	to{
+		left: 0px;
+		//border-radius: 0rem;
+	}
+}
+
+@keyframes to_right{
+	from{
+		left: 0px;
+		//border-radius: 100%;
+	}
+	to{
+		left: 65%;
+		//border-radius: 0rem;
+	}
+}
+
+*{
+margin: 0px;
+padding: 0px;
+}
+
+.b123, .b321{
+display: none;
+}
+
+.a123, .b123{
+left: 0px;
+top: 0px;
+}
+
+.a321, .b321{
+right: 0px;
+top: 65%;
+}
+
+html{
+	background-color: #1a1;
+}
+
+span{
+border-radius: 100%;
+position: fixed;
+width: 30%;
+height: 30%;
+background-color: green;
+display: block;
+margin: 14px;
+}
